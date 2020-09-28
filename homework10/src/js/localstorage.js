@@ -17,8 +17,6 @@ function addTheme() {
   localStorage.setItem('dark-theme', bodyRef.classList);
 }
 
-localStorage.removeItem('test');
-
 popullateTheme();
 function popullateTheme() {
   const darkTem = localStorage.getItem('dark-theme');
